@@ -12,6 +12,28 @@
 class Solution {
 public:
     bool isNumeric(char* string) {
-        
+        bool sign = false, deciaml = false, hasE = false;
+        for(int i = 0; i < strlen(string); ++i) {
+            if(string[i] == 'e' || string[i] == 'E') {
+                if(i == strlen(string) - 1)   // e后面一定要有数字
+                    return false;
+                hasE = true;
+            } else if(string[i] == '+' || string[i] == '-') {
+                // 第二次出现+-必须出现在e后面
+                if(sign && string[i-1] != 'e' && string[i-1] != 'E' )
+                    return false;
+                // 第一次出现+-符号，且不是在字符串开头，则也必须紧接在e之后
+                if(!sign && i > 0 && string[i-1] != 'e' && string[i-1] != 'E')
+                    return false;
+                sign = true;
+            } else if(string[i] == '.') {
+                // e后面不能接小数点，小数点不能出现两次
+                if(hasE || deciaml)
+                    return false;
+                deciaml = true;
+            } else if(string[i] < '0' || string[i] > '9')  // 不合法字符
+                return false;
+        }
+        return true;
     }
 };
