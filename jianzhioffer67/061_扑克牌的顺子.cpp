@@ -10,12 +10,36 @@ LL决定去买体育彩票啦。 现在,要求你使用这幅牌模拟上面的�
 */
 
 /*
-思想：
+思想：第一步，把数组排序，
+      第二步，统计数组中0的个数
+      第三步，统计排序之后的数组中相邻数字之间的空缺总数。如果空缺总数的总数小于或者等于0的个数，那么这个数组连续
+      否则不连续。
 */
 
 class Solution {
 public:
-    bool IsContinuous(vector<int> numbers ) {
-        
+    bool IsContinuous(vector<int> numbers) {
+        int len = numbers.size();
+        if(len == 0)
+            return false;
+        sort(numbers.begin(), numbers.end());
+        int zero = 0;
+        for(int i = 0; i < len; ++i) {
+            if(numbers[i] == 0)
+                ++zero;
+        }
+        int gap = 0;
+        // 统计数组中的间隔数目
+        int small = zero;
+        int big = small + 1;
+        while(big < len) {
+            // 两个数字相等，有对子，不可能是顺子
+            if(numbers[small] == numbers[big])
+                return false;
+            gap += numbers[big] - numbers[small] - 1;
+            small = big;
+            ++big;
+        }     
+        return (gap > zero) ? false : true;
     }
 };
