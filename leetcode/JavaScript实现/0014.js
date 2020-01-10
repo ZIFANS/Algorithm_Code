@@ -8,16 +8,15 @@
 */
 var longestCommonPrefix = function(strs) {
     strs.sort();
-    if(strs.length == 0)
+    if(strs.length === 0)
         return "";
     let first = strs[0], end = strs[strs.length - 1];
-    let exp = new RegExp(`^${first}`)  // 正则，意思就是以first字符串为开头
-    if(first === end || end.match(exp)) {
+    // 判断first是否被end包含
+    let exg = new RegExp(`^${first}`);
+    if(first === end || end.match(exg)) 
         return first;
-    }
     for(let i = 0; i < first.length; ++i) {
-        if(first[i] !== end[i]) {
+        if(first[i] !== end[i]) 
             return first.slice(0, i);
-        }
     }
 };
