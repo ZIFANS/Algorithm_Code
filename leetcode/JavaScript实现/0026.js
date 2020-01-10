@@ -28,3 +28,6 @@ var removeDuplicates = function(nums) {
     }
     return pre + 1;
 };
+//时间复杂度：O(n) 假设数组的长度是 nn，那么 ii 和 jj 分别最多遍历 nn 步。
+
+//空间复杂度：O(1)
