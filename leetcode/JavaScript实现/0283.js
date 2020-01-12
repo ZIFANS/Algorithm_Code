@@ -1,4 +1,6 @@
-/* 先将nums数组中非0的元素，放到index = 0开始
+/*
+自己代码，别人的想法
+先将nums数组中非0的元素，放到index = 0开始
 然后将 0元素添加到index后面
  */
 var moveZeroes = function(nums) {
