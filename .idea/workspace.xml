@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45139876-52f6-4dad-9887-2ebca63dbb25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/JavaScript实现/0005.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/JavaScript实现/0067.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/JavaScript实现/0206.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,19 +15,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/leetcode/JavaScript实现/0005.js">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/JavaScript实现/0067.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/leetcode/JavaScript实现/0206.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -58,6 +53,7 @@
         <option value="$PROJECT_DIR$/leetcode/JavaScript实现/0171.js" />
         <option value="$PROJECT_DIR$/leetcode/JavaScript实现/0005.js" />
         <option value="$PROJECT_DIR$/leetcode/JavaScript实现/0067.js" />
+        <option value="$PROJECT_DIR$/leetcode/JavaScript实现/0206.js" />
       </list>
     </option>
   </component>
@@ -138,18 +134,19 @@
       <workItem from="1578728651878" duration="665000" />
       <workItem from="1578795654991" duration="7163000" />
       <workItem from="1578836895902" duration="1377000" />
-      <workItem from="1578881650505" duration="5690000" />
+      <workItem from="1578881650505" duration="6359000" />
+      <workItem from="1578969834749" duration="609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14895000" />
+    <option name="totallyTimeSpent" value="16173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.41083744" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20716922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -161,7 +158,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -257,15 +254,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/JavaScript实现/0005.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/JavaScript实现/0067.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/JavaScript实现/0005.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/JavaScript实现/0206.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
