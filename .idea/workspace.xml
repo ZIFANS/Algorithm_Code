@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45139876-52f6-4dad-9887-2ebca63dbb25" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="45139876-52f6-4dad-9887-2ebca63dbb25" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -49,6 +47,7 @@
         <option value="$PROJECT_DIR$/leetcode/JavaScript实现/0067.js" />
         <option value="$PROJECT_DIR$/leetcode/JavaScript实现/0206.js" />
         <option value="$PROJECT_DIR$/leetcode/JavaScript实现/0344.js" />
+        <option value="$PROJECT_DIR$/leetcode/JavaScript实现/0088.js" />
       </list>
     </option>
   </component>
@@ -130,12 +129,12 @@
       <workItem from="1578795654991" duration="7163000" />
       <workItem from="1578836895902" duration="1377000" />
       <workItem from="1578881650505" duration="6359000" />
-      <workItem from="1578969834749" duration="1755000" />
+      <workItem from="1578969834749" duration="2406000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17319000" />
+    <option name="totallyTimeSpent" value="17970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -270,6 +269,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="7" selection-start-line="7" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/JavaScript实现/0088.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
