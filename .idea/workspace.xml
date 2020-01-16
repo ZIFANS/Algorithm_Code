@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45139876-52f6-4dad-9887-2ebca63dbb25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/JavaScript实现/0215.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/JavaScript实现/0015.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -16,23 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/leetcode/JavaScript实现/0104.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/JavaScript实现/0015.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="16" lean-forward="true" selection-start-column="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/JavaScript实现/0215.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <caret selection-end-line="32" />
             </state>
           </provider>
         </entry>
@@ -78,6 +66,7 @@
         <option value="$PROJECT_DIR$/leetcode/JavaScript实现/0136.js" />
         <option value="$PROJECT_DIR$/leetcode/JavaScript实现/0104.js" />
         <option value="$PROJECT_DIR$/leetcode/JavaScript实现/0215.js" />
+        <option value="$PROJECT_DIR$/leetcode/JavaScript实现/0015.js" />
       </list>
     </option>
   </component>
@@ -86,7 +75,7 @@
       <scroll-view-position x="0" y="0" />
     </layout>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1" />
     <option name="y" value="90" />
     <option name="width" value="820" />
@@ -161,18 +150,18 @@
       <workItem from="1578881650505" duration="6359000" />
       <workItem from="1578969834749" duration="5155000" />
       <workItem from="1579056377461" duration="4326000" />
-      <workItem from="1579145450128" duration="819000" />
+      <workItem from="1579145450128" duration="2880000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25864000" />
+    <option name="totallyTimeSpent" value="27925000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="33" y="105" width="1054" height="933" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3862069" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17764892" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -399,6 +388,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/JavaScript实现/0215.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/JavaScript实现/0104.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -406,13 +405,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/leetcode/JavaScript实现/0215.js">
+    <entry file="file://$PROJECT_DIR$/leetcode/JavaScript实现/0015.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-line="32" />
         </state>
       </provider>
     </entry>
