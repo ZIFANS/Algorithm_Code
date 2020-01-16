@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45139876-52f6-4dad-9887-2ebca63dbb25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/JavaScript实现/0015.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/JavaScript实现/0121.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,10 +16,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/JavaScript实现/0015.js">
+        <entry file="file://$PROJECT_DIR$/leetcode/JavaScript实现/0121.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="32" />
+            <state relative-caret-position="30">
+              <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -67,6 +69,7 @@
         <option value="$PROJECT_DIR$/leetcode/JavaScript实现/0104.js" />
         <option value="$PROJECT_DIR$/leetcode/JavaScript实现/0215.js" />
         <option value="$PROJECT_DIR$/leetcode/JavaScript实现/0015.js" />
+        <option value="$PROJECT_DIR$/leetcode/JavaScript实现/0121.js" />
       </list>
     </option>
   </component>
@@ -150,18 +153,18 @@
       <workItem from="1578881650505" duration="6359000" />
       <workItem from="1578969834749" duration="5155000" />
       <workItem from="1579056377461" duration="4326000" />
-      <workItem from="1579145450128" duration="2880000" />
+      <workItem from="1579145450128" duration="3971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27925000" />
+    <option name="totallyTimeSpent" value="29016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.17764892" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1686874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -407,8 +410,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/JavaScript实现/0015.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="32" />
+        <state relative-caret-position="-150">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/JavaScript实现/0121.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
