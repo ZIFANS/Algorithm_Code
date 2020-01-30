@@ -18,7 +18,7 @@ res = [ [],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3] ]
 var subsets = function(nums) {
     let ans = [[]];
     for (let i = 0; i < nums.length; ++i) {
-        let len = ans.length;
+        let len = ans.length; 
         for (let j = 0; j < len; ++j) {
             let sub = ans[j].slice();
             sub.push(nums[i]);
