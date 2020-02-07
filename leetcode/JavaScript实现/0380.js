@@ -32,6 +32,8 @@ RandomizedSet.prototype.remove = function(val) {
         return false;
     }
     const index = this.map[val];
+    // 关键点在这里 要删除一个元素 list中对应元素要删掉 那list中后面的元素怎么办？
+    // 最省事的办法是把最后一个元素搬到index所在位置
     if (index !== this.data.length - 1) {
         const lastVal = this.data[this.data.length - 1];
         this.map[lastVal] = index;
