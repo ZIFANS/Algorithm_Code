@@ -15,8 +15,8 @@ var letterCombinations = function(digits) {
         if (ans.length > 0) {
             let temp = [];
             for (let i = 0; i < ans.length; ++i) {
-                let w1 = w.length;
-                for (let j = 1; j < w1; ++j) {
+                let wLen = w.length;
+                for (let j = 1; j < wLen; ++j) {
                     temp.push(ans[i] + w[j]);
                 }
                 ans[i] += w[0];
