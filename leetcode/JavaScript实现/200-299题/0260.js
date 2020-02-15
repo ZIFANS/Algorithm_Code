@@ -1,8 +1,9 @@
-// 自己的代码，第一想法就是hash
-// 题目没有要求时间复杂度是O(n)，空间复杂度是O(1)。
-var singleNumber = function(nums) {
+// 自己的代码，不能用hash在剑指offer的第56题进行优化了
+var singleNumber = function (nums) {
     let map = new Map();
-    let len = nums.length;
+    let ans = [], len = nums.length;
+    if (len === 0)
+        return ans;
 
     for (let i = 0; i < len; ++i) {
         if (map.has(nums[i])) {
@@ -13,6 +14,7 @@ var singleNumber = function(nums) {
     }
     for (let i = 0; i < len; ++i) {
         if (map.get(nums[i]) === 1)
-            return nums[i];
+            ans.push(nums[i]);
     }
+    return ans;
 };
