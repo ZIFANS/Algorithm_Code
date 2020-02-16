@@ -10,3 +10,24 @@ var search = function(nums, target) {
 };
 
 // 二分法
+var search = function (nums, target) {
+    let left = 0, right = nums.length - 1;
+    while (left <= right) {
+        let middleIndex = Math.floor((right - left) / 2) + left;
+        let temp = nums[middleIndex];
+        if (target > temp) {
+            left = middleIndex + 1;
+        } else if (target < temp) {
+            right = middleIndex - 1;
+        } else {
+            if (nums[left] !== target) {
+                left = left + 1;
+            } else if (nums[right] !== target) {
+                right = right - 1;
+            } else {
+                return right - left + 1;
+            }
+        }
+    }
+    return 0;
+};

@@ -38,6 +38,29 @@ var searchRange = function(nums, target) {
 };
 
 
+// 二分的简化
+var searchRange = function(nums, target) {
+    let left = 0, right = nums.length - 1;
+    while (left <= right) {
+        let middleIndex = Math.floor((right - left) / 2) + left;
+        let temp = nums[middleIndex];
+        if (target > temp) {
+            left = middleIndex + 1;
+        } else if (target < temp) {
+            right = middleIndex - 1;
+        } else {
+            if (nums[left] !== target) {
+                left = left + 1;
+            } else if (nums[right] !== target) {
+                right = right - 1;
+            } else {
+                return [left, right];
+            }
+        }
+    }
+    return [-1, -1];
+};
+
 // 用JS自带的方法 O(n)，复杂度不符合，但是代码简单
 var searchRange = function(nums, target) {
     let ans = [-1, -1];
