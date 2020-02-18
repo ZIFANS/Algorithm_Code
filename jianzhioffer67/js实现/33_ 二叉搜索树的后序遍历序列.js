@@ -1,0 +1,17 @@
+// 还是递归
+var verifyPostorder = function(postorder) {
+    let len = postorder.length;
+    if (len < 2)
+        return true;
+    let root = postorder[len - 1];
+    let cur = 0;
+    // 左子树的数量
+    for (; cur < len - 1 && postorder[cur] < root; ++cur) {}
+     // 这里要检查右子树中的值是否满足条件
+    for (let i = cur; i < len - 1; ++i) {
+        if (postorder[i] < root)
+            return false;
+    }
+    return verifyPostorder(postorder.slice(0, cur)) && 
+            verifyPostorder(postorder.slice(cur, len - cur - 1));
+};
