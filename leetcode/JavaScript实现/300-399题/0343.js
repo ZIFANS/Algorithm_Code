@@ -1,5 +1,5 @@
-// 贪心算法
-var cuttingRope = function(n) {
+// 与剑指offer上的剪绳子是一样的题
+var integerBreak = function(n) {
     if (n < 2)
         return 0;
     if (n === 2)
@@ -12,5 +12,3 @@ var cuttingRope = function(n) {
     let timeOf2 = Math.floor((n - timeOf3 * 3) / 2);
     return (3 ** timeOf3) * (2 ** timeOf2);
 };
-
-// 动态规划
