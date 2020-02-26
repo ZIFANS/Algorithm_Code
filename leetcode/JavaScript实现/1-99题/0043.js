@@ -1,9 +1,4 @@
 // 竖式
-/**
- * @param {string} num1
- * @param {string} num2
- * @return {string}
- */
 let multiply = function(num1, num2) {
     //判断输入是不是数字
   if(isNaN(num1) || isNaN(num2)) return ''
@@ -16,9 +11,9 @@ let multiply = function(num1, num2) {
     for (let j = len2 - 1; j >= 0; j--) {
       let index1 = i + j, 
           index2 = i + j + 1
-      let mul = num1[i] * num2[j] + (ans[index2] || 0)
-      ans[index1] = Math.floor(mul / 10) + (ans[index1] || 0)
-      ans[index2] = mul % 10
+      let mul = num1[i] * num2[j] + (ans[index2] || 0);
+          ans[index1] = Math.floor(mul / 10) + (ans[index1] || 0),
+          ans[index2] = mul % 10
     }
   }
     
@@ -26,10 +21,8 @@ let multiply = function(num1, num2) {
   let result = ans.join('').replace(/^0+/,'')
     
     //不要转成数字判断，否则可能会超精度！
-  return !result ? '0' : result
+  return !result ? '0' : result;
 }
-
-
 
 
 
