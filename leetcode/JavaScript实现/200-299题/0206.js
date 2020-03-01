@@ -13,3 +13,15 @@ var reverseList = function(head) {
     }
     return pre.next;
 };
+
+// 同样的想法， 不一样的实现
+var reverseList = function(head) {
+    let pre = null, p = head;
+    while (p) {
+        let temp = p.next;
+        p.next = pre;
+        pre = p;
+        p = temp;
+    }
+    return pre;
+};
