@@ -41,3 +41,16 @@ var uniquePaths = function (m, n) {
     }
     return dp[n - 1];
 };
+
+// 意思和优化后的DP一样，只是吧if判断去掉了 代码更简洁
+var uniquePaths = function (m, n) {
+    let dp = new Array(n).fill(0);  
+    dp[0] = 1;
+
+    for (let i = 0; i < m; ++i) {
+        for (let j = 1; j < n; ++j) {
+             dp[j] += dp[j - 1];
+        }
+    }
+    return dp[n - 1];
+};
