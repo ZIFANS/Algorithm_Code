@@ -15,8 +15,10 @@ var longestPalindrome = function(s) {
     for(let i = 0; i < len; ++i) {
         let len1 = centerExpand(i, i);
         let len2 = centerExpand(i, i + 1);
+        // 两种组合取最大回文串的长度
         let maxLen = Math.max(len1, len2);
         if(maxLen > end - start) {
+            // 更新最大回文串的首尾字符索引
             start = i - ((maxLen - 1) >> 1);
             end = i + (maxLen >> 1);
         }
