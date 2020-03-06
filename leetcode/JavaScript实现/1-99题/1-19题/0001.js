@@ -1,9 +1,4 @@
 // 暴力法
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
- */
 var twoSum = function(nums, target) {
     let len = nums.length;
     let ans = [];
@@ -19,18 +14,14 @@ var twoSum = function(nums, target) {
 };
 
 
-// 哈希法
-/**
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
- */
+// 哈希法 自己一下就AC的
 var twoSum = function(nums, target) {
-    const map = {};
-    for(let i = 0; i < nums.length; ++i) {
-        if(map[target - nums[i]] !== undefined) {
-            return [map[target - nums[i]], i];
+    let map = new Map();
+
+    for (let i = 0; i < nums.length; ++i) {
+        if (map.has(target - nums[i])) {
+            return [map.get(target - nums[i]), i];
         }
-        map[nums[i]] = i;
+        map.set(nums[i], i);
     }
 };
