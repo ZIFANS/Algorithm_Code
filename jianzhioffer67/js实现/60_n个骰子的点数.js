@@ -20,3 +20,6 @@ var twoSum = function(n) {
     }
     return ans.slice(1).map(num => num / Math.pow(6, n)).filter(Boolean);
 };
+
+
+// 方法二：动态规划
