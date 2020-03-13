@@ -21,3 +21,4 @@ var numDecodings = function(s) {
 
     return dp[len];
 };
+
