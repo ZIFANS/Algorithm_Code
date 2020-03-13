@@ -1,4 +1,6 @@
-// 别人的题目 想法很好
+/*
+gcd 算法:const gcd = (a, b) => (0 === b ? a : gcd(b, a % b))
+*/
 var gcdOfStrings = function (str1, str2) {
     if (str1 + str2 !== str2 + str1) 
         return '';
