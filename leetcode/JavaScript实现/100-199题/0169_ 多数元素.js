@@ -1,5 +1,4 @@
 // 自己的代码 很好理解
-// LeetCode有原题
 var majorityElement = function(nums) {
     let ans = nums[0];
     let count = 1;
