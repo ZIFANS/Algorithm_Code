@@ -1,5 +1,7 @@
 // 自己的代码，第一次做
-// 思想就是hash
+// 1.暴力
+
+// 2.hash
 var findRepeatNumber = function(nums) {
     let map = {};
     for (let i = 0; i < nums.length; ++i) {
@@ -12,7 +14,7 @@ var findRepeatNumber = function(nums) {
     }
 };
 
-// 第二次做，优化版的hash, 不需要遍历完整个数组，当数字再次出现就return
+// 3.优化版的hash, 不需要遍历完整个数组，当数字再次出现就return
 var findRepeatNumber = function(nums) {
     let map = new Map();
     for (let i = 0; i < nums.length; ++i) {
