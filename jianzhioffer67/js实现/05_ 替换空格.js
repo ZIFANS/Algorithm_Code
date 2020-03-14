@@ -20,4 +20,34 @@ var replaceSpace = function(s) {
 };
 
 // 前面两种都太容易和简单了
-// 3：双指针
+// 3：开始是想着不开辟新的数组或者字符串，但是JS对字符串操作好像不能 s[s.length] = a; 类似这样的赋值
+// 所以还没有上面两种方法来的好。
+var replaceSpace = function(s) {
+    let count = 0;
+    let len = s.length;
+
+    for (let i = 0; i < len; ++i) {
+        if (s[i] === ' ')
+            ++count;
+    }
+
+    let temp = count;
+    while (temp) {
+        s += ' ';
+        --temp;
+    }
+
+    let arr = s.split('');
+    for (let i = len - 1; i >= 0; --i) {
+        if (arr[i] !== ' ') {
+            arr[i + 2 * count] = arr[i];
+        } else {
+            --count;
+            arr[i + 2 * count] = '%';
+            arr[i + 2 * count + 1] = '2';
+            arr[i + 2 * count + 2] = '0';
+        }
+    }
+
+    return arr.join('');
+};
