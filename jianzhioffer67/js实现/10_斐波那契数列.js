@@ -1,3 +1,4 @@
+// 与leetcode509 相同题
 var fib = function(n) {
     let ans = [0, 1];
     for (let i = 2;i <= n; ++i) {
