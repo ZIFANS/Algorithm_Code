@@ -23,7 +23,8 @@ CQueue.prototype.appendTail = function(value) {
  * @return {number}
  */
 CQueue.prototype.deleteHead = function() {
-    const {stack1, stack2} = this;  // 利用解构，后面就不需要this.stack1 太长了
+    // ES6解构
+    const {stack1, stack2} = this;  
     if (stack2.length) {
         return stack2.pop();
     } else {
