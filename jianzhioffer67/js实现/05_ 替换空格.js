@@ -1,15 +1,16 @@
 // 自己的两种无脑代码：
 // 1：返回一个新的字符串
 var replaceSpace = function(s) {
-    let countBlank = 0;
     let ans = "";
+
     for (let i = 0; i < s.length; ++i) {
         if (s[i] === ' ') {
-            ans += "%20";
+            ans += '%20';
         } else {
             ans += s[i];
         }
     }
+
     return ans;
 };
 
