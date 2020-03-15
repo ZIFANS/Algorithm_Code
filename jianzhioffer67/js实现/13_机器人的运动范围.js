@@ -16,21 +16,21 @@ var movingCount = function (m, n, k) {
     function enter(x, y) {
         if (x >= 0 && x < m && y >= 0 && y < n) {
             if (arr[x][y] && sum(x) + sum(y) <= k) {
-                ans++
-                arr[x][y] = false
-                enter(x + 1, y)
-                enter(x - 1, y)
-                enter(x, y + 1)
-                enter(x, y - 1)
+                ans++;
+                arr[x][y] = false;
+                enter(x + 1, y);
+                enter(x - 1, y);
+                enter(x, y + 1);
+                enter(x, y - 1);
             }
         }
     }
     //数位之和
     function sum(num) {
-        let sum = 0
+        let sum = 0;
         while (num > 0) {
-            sum += num % 10
-            num = Math.floor(num / 10)
+            sum += num % 10;
+            num = Math.floor(num / 10);
         }
         return sum;
     }
