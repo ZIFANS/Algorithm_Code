@@ -1,7 +1,7 @@
 // 1. hash， 接近于暴力法了
 var countCharacters = function(words, chars) {
-    let obj = {};
     let ans = 0;
+    let obj = {};
 
     for (let i = 0; i < chars.length; ++i) {
         obj[chars[i]] ? obj[chars[i]] ++ : obj[chars[i]] = 1;
@@ -33,8 +33,8 @@ var countCharacters = function(words, chars) {
 
 // 1.也是hash,用的是ES6 Map重写了遍
 var countCharacters = function(words, chars) {
-    let map = new Map();
     let ans = 0;
+    let map = new Map();
 
     for (let i = 0; i < chars.length; ++i) {
         let val = map.get(chars[i]);
