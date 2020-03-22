@@ -53,3 +53,24 @@ function backtrack(ans, tempList, nums, start, n) {
         tempList.pop();                         //不管成功与否，退回上一步
     }
 }
+
+
+// 3、回溯递归 另一种写法
+var subsets = function(nums) {
+    let ans = [];
+    let temp = [];
+
+    let backtrack = (tempPath, start) => {
+        ans.push(tempPath);
+
+        for (let i = start; i < nums.length; ++i) {
+            tempPath.push(nums[i]);
+            backtrack(tempPath.slice(), i + 1);
+            tempPath.pop();
+        }
+    };
+
+    backtrack(temp, 0);
+
+    return ans;
+};
