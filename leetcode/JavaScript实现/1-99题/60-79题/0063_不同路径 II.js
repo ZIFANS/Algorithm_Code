@@ -19,18 +19,25 @@ S 0 1 0
 0 0 0 2 
 obstacleGrid[row -1][col -1]就是答案
 */
+// 1、动态规划
 var uniquePathsWithObstacles = function(obstacleGrid) {
     let rows = obstacleGrid.length, cols = obstacleGrid[0].length;
 
     if (obstacleGrid[0][0] === 1)
         return 0;
+    // 初始化start为1
     obstacleGrid[0][0] = 1;
+
+    // 初始化第一列
     for (let i = 1; i < rows; ++i) {
         obstacleGrid[i][0] = (obstacleGrid[i][0] === 0 && obstacleGrid[i - 1][0] === 1) ? 1 : 0;
     }
+
+    // 初始化第一行
     for (let i = 1; i < cols; ++i) {
         obstacleGrid[0][i] = (obstacleGrid[0][i] === 0 && obstacleGrid[0][i - 1] === 1) ? 1 : 0;
     }
+
     for (let i = 1; i < rows; ++i) {
         for (let j = 1; j < cols; ++j) {
             if (obstacleGrid[i][j] === 0) {
@@ -40,6 +47,7 @@ var uniquePathsWithObstacles = function(obstacleGrid) {
             }
         }
     }
-    return obstacleGrid[rows- 1][cols - 1];
+
+    return obstacleGrid[rows - 1][cols - 1];
 };
 
