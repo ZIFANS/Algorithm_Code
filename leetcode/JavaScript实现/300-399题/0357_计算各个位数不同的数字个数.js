@@ -26,7 +26,7 @@ var countNumbersWithUniqueDigits = function(n) {
     if (n === 1)
         return 10;
     
-    let dp = new Array(n + 1).fill(1);
+    let dp = new Array(n + 1).fill(0);
     dp[0] = 1;
     dp[1] = 9;
     let sum = dp[0] + dp[1];
