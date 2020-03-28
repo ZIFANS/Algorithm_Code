@@ -6,8 +6,7 @@ var minimumLengthEncoding = function(words) {
         for (let i = 1; i < item.length; ++i) {
             // 切片，看看是否词尾在 hashSet 中，切片从1开始，只看每个单词的词尾
             let target = item.slice(i);
-            hashSet.has(target);  //  hashSet.has(target) && hashSet.delete(target)
-            hashSet.delete(target);
+            hashSet.has(target) && hashSet.delete(target);
         }
     }
 
@@ -17,3 +16,4 @@ var minimumLengthEncoding = function(words) {
 
     return ans;
 };
+
