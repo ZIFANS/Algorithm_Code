@@ -9,8 +9,6 @@ var isValidBST = function(root, min = -Infinity, max = Infinity) {
 };
 
 
-
-
 // 2、中序遍历， 看序列是否是升序,是则true,否则是false
 var isValidBST = function(root) {
     let queue = [];
