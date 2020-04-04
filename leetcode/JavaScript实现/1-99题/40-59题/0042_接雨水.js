@@ -1,4 +1,4 @@
-// 按列求 ，算是暴力法
+// 1、按列求 ，算是暴力法 。时间 O(N * 2), 空间O(1)
 var trap = function(height) {
     let sum = 0;
     //最两端的列不用考虑，因为一定不会有水。所以下标从 1 到 length - 2
@@ -27,12 +27,12 @@ var trap = function(height) {
     return sum;
 };
 
-// 动态规划解法
+// 2、动态规划解法 时间 O(N), 空间O(N)
 var trap = function(height) {
     let sum = 0;
     let max_left = new Array(height.length).fill(0);
     let max_right = new Array(height.length).fill(0);
-    
+
     for (let i = 1; i < height.length - 1; ++i) {
         max_left[i] = Math.max(max_left[i - 1], height[i - 1]);
     }
@@ -41,13 +41,16 @@ var trap = function(height) {
     }
     for (let i = 1; i < height.length - 1; ++i) {
         let min = Math.min(max_left[i], max_right[i]);
-        if (min > height[i]) 
+
+        if (min > height[i]) {
             sum += (min - height[i]);
+        }
     }
+
     return sum;
 };
 
-// 双指针法。
+// 3、双指针法。
 var trap = function(height) {
     let sum = 0, max_left = 0;
     let max_right = new Array(height.length).fill(0);
@@ -58,6 +61,7 @@ var trap = function(height) {
     for (let i = 1; i < height.length - 1; ++i) {
         max_left = Math.max(max_left, height[i - 1]);
         let min = Math.min(max_left, max_right[i]);
+        
         if (min > height[i]) {
             sum += (min - height[i]);
         }
