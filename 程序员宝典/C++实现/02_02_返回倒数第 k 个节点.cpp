@@ -1,14 +1,7 @@
-/*
-题目描述：
-输入一个链表，输出该链表中倒数第k个结点。
-*/
-
-/*
-双指针
-*/
+// 1、快慢指针
 class Solution {
 public:
-    ListNode* getKthFromEnd(ListNode* head, int k) {
+    int kthToLast(ListNode* head, int k) {
         ListNode *slow = head, *fast = head;
 
         for (int i = 0; i < k; ++i) {
@@ -20,6 +13,6 @@ public:
             fast = fast->next;
         }
 
-        return slow;
+        return slow->val;
     }
 };
