@@ -9,20 +9,16 @@
 
 class Solution {
 public:
-    ListNode* ReverseList(ListNode* pHead) {
-        ListNode *reverseHead = nullptr;
-        ListNode *p = pHead;
-        ListNode *pre = nullptr;
-
-        while(p != nullptr) {
-            ListNode *temp = p->next;
-
-            if(temp == nullptr) 
-                reverseHead = p;
-            p->next = pre;
-            pre = p;
-            p = temp;
+    ListNode* reverseList(ListNode* head) {
+        ListNode *pre = NULL, *cur = head;
+        
+        while (cur) {
+            ListNode *temp = cur->next;
+            cur->next = pre;
+            pre = cur;
+            cur = temp;
         }
-        return reverseHead;
+
+        return pre;
     }
 };
