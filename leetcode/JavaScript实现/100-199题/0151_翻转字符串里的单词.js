@@ -4,6 +4,7 @@ var reverseWords = function(s) {
         return val;
     });
     let len = sToArr.length, ans = "";
+    
     for (let i = 0; i < len; ++i) {
         let temp = (i === len - 1) ? sToArr[0] : (sToArr[len - 1- i] + ' ');
         ans += temp;
