@@ -2,11 +2,12 @@
 // 第一想法就是暴力解, 一次AC。
 var maxArea = function(height) {
     let len = height.length, ans = 0;
-    for(let i = 0; i < len; ++i) {
+
+    for (let i = 0; i < len; ++i) {
         let temp = 0;
-        for(let j = i + 1; j < len; ++j) {
+        for (let j = i + 1; j < len; ++j) {
             temp = (height[i] < height[j] ? height[i] : height[j]) * (j - i);
-            if(temp > ans)
+            if (temp > ans)
                 ans = temp;
         }
     }
@@ -25,12 +26,15 @@ var maxArea = function(height) {
 */
 var maxArea = function(height) {
     let maxarea = 0, left = 0, right = height.length - 1;
-    while(left < right) {
+
+    while (left < right) {
         maxarea = Math.max(maxarea, Math.min(height[left], height[right]) * (right - left));
-        if(height[left] < height[right])
-            left++;
+
+        if (height[left] < height[right])
+            ++left;
         else 
-            right--;
+            --right;
     }
+
     return maxarea;
 };
