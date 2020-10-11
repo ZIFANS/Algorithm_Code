@@ -3,25 +3,41 @@
 输入一个链表，按链表从尾到头的顺序返回一个ArrayList。
 */
 
-/*
-将链表元素插入到一个栈中，然后从栈中弹出元素
-*/
-
+// 用reverse函数
 class Solution {
 public:
-    vector<int> printListFromTailToHead(ListNode* head) {
+    vector<int> reversePrint(ListNode* head) {
         vector<int> ans;
-        stack<ListNode*> nodes;
-        ListNode *p = head;
-        while(p != nullptr) {
-            nodes.push(p);
-            p = p -> next;
-        }
-        while(!nodes.empty()) {
-            p = nodes.top();
+
+        if (!head)
+            return ans;
+
+        ListNode* p = head;
+
+        while (p) {
             ans.push_back(p->val);
-            nodes.pop();
+            p = p->next;
         }
+
+        reverse(ans.begin(), ans.end());
+
+        return ans;
+    }
+};
+
+
+// 递归
+class Solution {
+private:
+    vector<int> ans;
+public:
+    vector<int> reversePrint(ListNode* head) {
+        if (!head)
+            return ans;
+        
+        reversePrint(head->next);
+        ans.push_back(head->val);
+
         return ans;
     }
 };

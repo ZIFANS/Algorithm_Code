@@ -7,15 +7,26 @@
 /*
 思想：递归求左、右子树的高度，比较两者最大值 + 1 就是树的深度
 */
-
-
 class Solution {
 public:
-    int TreeDepth(TreeNode* pRoot) {
-        if(pRoot == nullptr)
+    int maxDepth(TreeNode* root) {
+        if (!root)
             return 0;
-        int left = TreeDepth(pRoot->left);
-        int right = TreeDepth(pRoot->right);
-        return left > right ? left + 1 : right + 1;
+        
+        int leftLen = maxDepth(root->left);
+        int rightLen = maxDepth(root->right);
+
+        return leftLen > rightLen ? leftLen + 1 : rightLen + 1;
+    }
+};
+
+// 更加简洁的写法
+class Solution {
+public:
+    int maxDepth(TreeNode* root) {
+        if (!root)
+            return 0;
+        
+        return max(maxDepth(root->left), maxDepth(root->right)) + 1;
     }
 };

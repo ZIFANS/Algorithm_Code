@@ -11,16 +11,15 @@ Notes:要将nullptr节点也遍历进去
 
 class Solution {
 public:
-    bool isSymmetrical(TreeNode* pRoot) {
-        return isSymmetrical(pRoot, pRoot);
+    bool isSymmetric(TreeNode* root) {
+        return helper(root, root);
     }
-    bool isSymmetrical(TreeNode *pRoot1, TreeNode *pRoot2) {
-        if(pRoot1 == nullptr && pRoot2 == nullptr) 
+    bool helper(TreeNode* root1, TreeNode* root2) {
+        if (!root1 && !root2)
             return true;
-        if(pRoot1 == nullptr || pRoot2 == nullptr)
+        if (!root1 || !root2)
             return false;
-        if(pRoot1->val != pRoot2->val) 
-            return false;
-        return isSymmetrical(pRoot1->left, pRoot2->right) && isSymmetrical(pRoot1->right, pRoot2->left);
+        
+        return root1->val == root2->val && helper(root1->left, root2->right) && helper(root1->right, root2->left);
     }
 };

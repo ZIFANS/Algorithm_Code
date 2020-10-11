@@ -1,0 +1,19 @@
+/*
+思路：就是当p和q的值都小于root->val值 则说明p和q都在root的左子树
+当p和q的值都大于root->val值 则说明p和q都在root的右子树
+如果都不满足 则说明root节点就是它们的公共节点，返回即可。
+*/
+class Solution {
+public:
+    TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
+        if (!root)
+            return NULL;
+        
+        if (p->val < root->val && q->val < root->val)
+            return lowestCommonAncestor(root->left, p, q);
+        if (p->val > root->val && q->val > root->val)
+            return lowestCommonAncestor(root->right, p, q);
+        
+        return root;
+    }
+};

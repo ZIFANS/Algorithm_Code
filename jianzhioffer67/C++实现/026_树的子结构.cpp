@@ -10,35 +10,22 @@
 Equal是用来两个double类型值的比较。double比较时候不能直接pRoot1->val == pRoot2->val
 因为在计算机内表示小数时（包括float和double型小数）都有误差。
 */
-
-
 class Solution {
 public:
-    bool HasSubtree(TreeNode* pRoot1, TreeNode* pRoot2) {
-        bool ans = false;
-        if(pRoot1 != nullptr && pRoot2 != nullptr) {
-            if(Equal(pRoot1->val, pRoot2->val)) 
-                ans = DoesTree1HasTree2(pRoot1, pRoot2);
-            if(!ans)
-                ans = HasSubtree(pRoot1->left, pRoot2);
-            if(!ans)
-                ans = HasSubtree(pRoot1->right, pRoot2);
-        }
-        return ans;
+    bool isSubStructure(TreeNode* A, TreeNode* B) {
+        if (!A || !B)
+            return false;
+        
+        return isSubTree(A, B) || isSubStructure(A->left, B) || isSubStructure(A->right, B);
     }
-    bool DoesTree1HasTree2(TreeNode* pRoot1, TreeNode* pRoot2) {
-        if(pRoot2 == nullptr)
+    bool isSubTree(TreeNode* root1, TreeNode* root2) {
+        if (!root2)
             return true;
-        if(pRoot1 == nullptr)
+        if (!root1)
             return false;
-        if(!Equal(pRoot1->val, pRoot2->val))
+        if (root1->val != root2->val)
             return false;
-        return DoesTree1HasTree2(pRoot1->left, pRoot2->left) && DoesTree1HasTree2(pRoot1->right, pRoot2->right);
-    }
-    bool Equal(double num1, double num2) {
-        if( ((num1 - num2) > -0.0000001) && ((num1 - num2) < 0.0000001))
-            return true;
-        else
-            return false;
+        
+        return isSubTree(root1->left, root2->left) && isSubTree(root1->right, root2->right);
     }
 };

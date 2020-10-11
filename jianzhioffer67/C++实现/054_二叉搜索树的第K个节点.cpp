@@ -9,32 +9,33 @@
 */
 
 /*
-思想：就是用非递归中序遍历，用个count记录
+思想：就是用非递归中序遍历的倒序，用个count记录
 */
 
 // 完全自己代码
 class Solution {
 public:
-    TreeNode* KthNode(TreeNode* pRoot, int k) {
-      if(pRoot == nullptr)
-        return nullptr;
-      stack<TreeNode*> s;
-      TreeNode *p = pRoot;
-      int count = 0;
-      while(p || !s.empty()) {
-        while(p) {
-          s.push(p);
-          p = p->left;
+    int kthLargest(TreeNode* root, int k) {
+        if (!root)
+            return -1;
+
+        int count = 0;
+        stack<TreeNode*> s;
+
+        while (root || s.size()) {
+            if (root) {
+                s.push(root);
+                root = root->right;
+            } else {
+                TreeNode* temp = s.top();
+                s.pop();
+                if (++count == k) {
+                    return temp->val;
+                }
+                root = temp->left;
+            }
         }
-        if(!s.empty()) {
-          p = s.top();
-          ++count;
-          if(count == k)
-            return p;
-          s.pop();
-          p = p->right;
-        }
-      }
-      return nullptr;
-  }   
+
+        return -1;
+    }
 };

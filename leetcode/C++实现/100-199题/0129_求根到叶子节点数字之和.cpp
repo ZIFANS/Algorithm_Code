@@ -1,0 +1,28 @@
+/*
+定义一个变量sum记录当前路径的和，变量ans记录当前所有路径的和
+每进入下一个子树，将当前的sum*10再加上该树的val
+当访问到叶子节点时，将其添加到变量ans中
+*/
+class Solution {
+private:
+    int ans = 0;
+public:
+    int sumNumbers(TreeNode* root) {
+        if (!root)
+            return 0;
+
+        DFS(root, 0);
+        
+        return ans;
+    }
+    void DFS(TreeNode* root, int sum) {
+        sum = sum * 10 + root->val;
+
+        if (!root->left && !root->right)
+            ans += sum;
+        if (root->left)
+            DFS(root->left, sum);
+        if (root->right)
+            DFS(root->right, sum);
+    }
+};

@@ -9,33 +9,54 @@
 */
 
 
-// 自己的代码
+// 麻烦一点的代码
 class Solution {
 public:
-    ListNode* FindFirstCommonNode(ListNode* pHead1, ListNode* pHead2) {
-        int len1 = LengthList(pHead1), len2 = LengthList(pHead2);
-        ListNode *longNode = pHead1, *shortNode = pHead2;
-        int lendiff = len1 - len2;
-        if(len2 > len1) {
-            lendiff = len2 - len1;
-            longNode = pHead2;
-            shortNode = pHead1;
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        int lenA = getListLen(headA), lenB = getListLen(headB);
+        int diff = lenA - lenB;
+        ListNode *longNode = headA, *shortNode = headB;
+
+        if (diff < 0) {
+            longNode = headB;
+            shortNode = headA;
+            diff = lenB - lenA;
         }
-        for(int i = 0; i < lendiff; ++i) {
+
+        for (int i = 0; i < diff; ++i) {
             longNode = longNode->next;
         }
-        while(longNode != shortNode) {
+
+        while (longNode != shortNode) {
             longNode = longNode->next;
             shortNode = shortNode->next;
         }
+
         return longNode;
     }
-    int LengthList(ListNode *head) {
+    int getListLen(ListNode* head) {
         int len = 0;
-        while(head != nullptr) {
+
+        while (head) {
             ++len;
             head = head->next;
         }
+        
         return len;
+    }
+};
+
+// 另外一种方法
+class Solution {
+public:
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        ListNode *pA = headA, *pB = headB;
+
+        while (pA != pB) {
+            pA = pA ? pA->next : headB;
+            pB = pB ? pB->next : headA;
+        }
+
+        return pA;
     }
 };

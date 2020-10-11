@@ -1,3 +1,4 @@
+// 一遍遍历，用双指针的方法
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {

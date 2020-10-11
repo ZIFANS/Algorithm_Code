@@ -10,28 +10,38 @@
 如果stack2非空，则直接将stack2中的栈顶元素pop
 */
 
-class Solution
-{
+class CQueue {
+    stack<int> stack1,stack2;
 public:
-    void push(int node) {
-        stack1.push(node);
+    CQueue() {
+        
     }
-
-    int pop() {
-        int ans;
-        if(stack2.size() <= 0) {
-            while(stack1.size() > 0) {
-                int temp = stack1.top();
+    
+    void appendTail(int value) {
+        stack1.push(value);
+    }
+    
+    int deleteHead() {
+        if (stack2.empty()) {
+            while (!stack1.empty()) {
+                stack2.push(stack1.top());
                 stack1.pop();
-                stack2.push(temp);
             }
-        } 
-        ans = stack2.top();
-        stack2.pop();
-        return ans;
-    }
+        }
+        if (stack2.empty()) {
+            return -1;
+        } else {
+            int ans = stack2.top();
+            stack2.pop();
 
-private:
-    stack<int> stack1;
-    stack<int> stack2;
+            return ans;
+        }
+    }
 };
+
+/**
+ * Your CQueue object will be instantiated and called as such:
+ * CQueue* obj = new CQueue();
+ * obj->appendTail(value);
+ * int param_2 = obj->deleteHead();
+ */
