@@ -3,18 +3,18 @@ class Solution {
 public:
     vector<int> inorderTraversal(TreeNode* root) {
         vector<int> ans;
-        TreeNode* p = root;
         stack<TreeNode*> s;
+        TreeNode *p = root;
 
         while (p || !s.empty()) {
             if (p) {
                 s.push(p);
                 p = p->left;
             } else {
-                p = s.top();
+                TreeNode *temp = s.top();
                 s.pop();
-                ans.push_back(p->val);
-                p = p->right;
+                ans.push_back(temp->val);
+                p = temp->right;
             }
         }
 

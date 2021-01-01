@@ -9,20 +9,17 @@
  */
 class Solution {
 public:
-    // 求树的高度
-    int height(TreeNode *root) {
+    // 求二叉树的高度
+    int treeHeight(TreeNode *root) {
         if (!root)
             return 0;
-         else {
-             return max(height(root->left), height(root->right)) + 1;
-         }
+        
+        return max(treeHeight(root->left), treeHeight(root->right)) + 1;
     }
     bool isBalanced(TreeNode* root) {
         if (!root)
             return true;
-        else {
-            // 判断所有的子树是否都满足平衡二叉树定义
-            return abs(height(root->left) - height(root->right)) <= 1 && isBalanced(root->left) && isBalanced(root->right);
-        }
+        
+        return abs(treeHeight(root->left) - treeHeight(root->right)) <= 1 && isBalanced(root->left) && isBalanced(root->right);
     }
 };
