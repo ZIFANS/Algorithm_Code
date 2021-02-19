@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5516b953-b3ea-42c7-ad80-5a1b42d23f44" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jianzhioffer67/056 - II. 数组中数字出现的次数 II.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/1-99题/0016. 最接近的三数之和.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/100-199题/0120. 三角形最小路径和.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/200-299题/0260. 只出现一次的数字 III.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianzhioffer67/043_整数中1出现的次数（从1到n）.md" beforeDir="false" afterPath="$PROJECT_DIR$/jianzhioffer67/043_整数中1出现的次数（从1到n）.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianzhioffer67/044. 数字序列中某一位的数字.md" beforeDir="false" afterPath="$PROJECT_DIR$/jianzhioffer67/044. 数字序列中某一位的数字.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianzhioffer67/045_把数组排成最小的数.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/jianzhioffer67/045_把数组排成最小的数.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianzhioffer67/049_丑数.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/jianzhioffer67/049_丑数.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianzhioffer67/056_数组中数字出现的次数.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/jianzhioffer67/056 - I. 数组中数字出现的次数.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianzhioffer67/059_滑动窗口最大值.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianzhioffer67/061_扑克牌的顺子.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/jianzhioffer67/061_扑克牌的顺子.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianzhioffer67/062_圆圈中最后剩下的数字.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/jianzhioffer67/062_圆圈中最后剩下的数字.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianzhioffer67/064_求1+2+3+...n.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/jianzhioffer67/064_求1+2+3+...n.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/1-99题/0005.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/1-99题/0007.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/1-99题/0007整数反转.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/1-99题/0063. 不同路径 II.md" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/1-99题/0063. 不同路径 II.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/100-199题/0136.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/100-199题/0136 只出现一次的数字.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/100-199题/0137.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/100-199题/0137只出现一次的数字 II.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/leetcode/100-199题/0120. 三角形最小路径和.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="792">
+                <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/jianzhioffer67/049_丑数.md" />
+        <option value="$PROJECT_DIR$/jianzhioffer67/045_把数组排成最小的数.md" />
+        <option value="$PROJECT_DIR$/leetcode/100-199题/0137只出现一次的数字 II.md" />
+        <option value="$PROJECT_DIR$/jianzhioffer67/056 - I. 数组中数字出现的次数.md" />
+        <option value="$PROJECT_DIR$/jianzhioffer67/056 - II. 数组中数字出现的次数 II.md" />
+        <option value="$PROJECT_DIR$/leetcode/100-199题/0136 只出现一次的数字.md" />
+        <option value="$PROJECT_DIR$/jianzhioffer67/062_圆圈中最后剩下的数字.md" />
+        <option value="$PROJECT_DIR$/jianzhioffer67/061_扑克牌的顺子.md" />
+        <option value="$PROJECT_DIR$/jianzhioffer67/064_求1+2+3+...n.md" />
+        <option value="$PROJECT_DIR$/leetcode/1-99题/0007整数反转.md" />
+        <option value="$PROJECT_DIR$/leetcode/1-99题/0016. 最接近的三数之和.md" />
+        <option value="$PROJECT_DIR$/leetcode/100-199题/0120. 三角形最小路径和.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/Algorithm_Code.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="531" />
+    <option name="y" value="108" />
+    <option name="width" value="1059" />
+    <option name="height" value="997" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Algorithm_Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm_Code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm_Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm_Code" type="462c0819:PsiDirectoryNode" />
+              <item name="jianzhioffer67" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm_Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm_Code" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm_Code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm_Code" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="1-99题" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5516b953-b3ea-42c7-ad80-5a1b42d23f44" name="Default Changelist" comment="" />
+      <created>1613293264502</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613293264502</updated>
+      <workItem from="1613293266820" duration="3856000" />
+      <workItem from="1613482065432" duration="766000" />
+      <workItem from="1613527563621" duration="1891000" />
+      <workItem from="1613614110133" duration="2401000" />
+      <workItem from="1613705165596" duration="1405000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10319000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18608329" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jianzhioffer67/006_从尾到头打印链表.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-1078">
+            <folding>
+              <element signature="n#!!doc" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/200-299题/0264. 丑数 II.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="144">
+            <caret line="4" column="25" selection-end-line="51" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianzhioffer67/049_丑数.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianzhioffer67/045_把数组排成最小的数.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/200-299题/0260. 只出现一次的数字 III.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianzhioffer67/062_圆圈中最后剩下的数字.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianzhioffer67/061_扑克牌的顺子.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="578">
+            <caret line="35" column="2" selection-start-line="35" selection-start-column="2" selection-end-line="35" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianzhioffer67/064_求1+2+3+...n.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/1-99题/0007整数反转.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/1-99题/0016. 最接近的三数之和.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="900">
+            <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/100-199题/0136 只出现一次的数字.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/100-199题/0137只出现一次的数字 II.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="324">
+            <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianzhioffer67/056 - II. 数组中数字出现的次数 II.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="576">
+            <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianzhioffer67/056 - I. 数组中数字出现的次数.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" column="23" lean-forward="true" selection-end-line="86" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/100-199题/0120. 三角形最小路径和.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="792">
+            <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
