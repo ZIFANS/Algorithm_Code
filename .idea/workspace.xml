@@ -2,19 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5516b953-b3ea-42c7-ad80-5a1b42d23f44" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/leetcode/1-99题/0074. 搜索二维矩阵.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/1-99题/0081. 搜索旋转排序数组 II.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/100-199题/0153. 寻找旋转排序数组中的最小值.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/100-199题/0162. 寻找峰值.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/1300-1399题/1351. 统计有序矩阵中的负数.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/200-299题/0202. 快乐数.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/200-299题/0287. 寻找重复数.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/300-399题/0349. 两个数组的交集.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/300-399题/0350. 两个数组的交集 II.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/700-799题/0704. 二分查找.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/1-99题/0027. 移除元素.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/200-299题/0209. 长度最小的子数组.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/200-299题/0231. 2的幂.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/200-299题/0268. 丢失的数字.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/200-299题/0278. 第一个错误的版本.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/300-399题/0342. 4的幂.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/300-399题/0367. 有效的完全平方数.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/300-399题/0374. 猜数字大小.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/300-399题/0378. 有序矩阵中第 K 小的元素.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/300-399题/0387. 字符串中的第一个唯一字符.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/300-399题/0392. 判断子序列.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/400-499题/0441. 排列硬币.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/500-599题/0540. 有序数组中的单一元素.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/700-799题/0744. 寻找比目标字母大的最小字母.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/800-899题/0852. 山脉数组的峰顶索引.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/程序员宝典/10.03. 搜索旋转数组.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/程序员宝典/10.05. 稀疏数组搜索.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/1-99题/0069.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/1-99题/0069. x 的平方根.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/200-299题/0204.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/200-299题/0204. 计数质数.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jianzhioffer67/006_从尾到头打印链表.md" beforeDir="false" afterPath="$PROJECT_DIR$/jianzhioffer67/006_从尾到头打印链表.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/程序员宝典/17.04. 消失的数字.md" beforeDir="false" afterPath="$PROJECT_DIR$/程序员宝典/17.04. 消失的数字.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +35,14 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/leetcode/1300-1399题/1351. 统计有序矩阵中的负数.md">
+        <entry file="file://$PROJECT_DIR$/jianzhioffer67/006_从尾到头打印链表.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="182">
-                <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+              <first_editor relative-caret-position="72">
+                <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+                <folding>
+                  <element signature="n#!!doc" expanded="true" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
@@ -73,6 +83,25 @@
         <option value="$PROJECT_DIR$/leetcode/300-399题/0350. 两个数组的交集 II.md" />
         <option value="$PROJECT_DIR$/leetcode/700-799题/0704. 二分查找.md" />
         <option value="$PROJECT_DIR$/leetcode/1300-1399题/1351. 统计有序矩阵中的负数.md" />
+        <option value="$PROJECT_DIR$/程序员宝典/10.05. 稀疏数组搜索.md" />
+        <option value="$PROJECT_DIR$/leetcode/700-799题/0744. 寻找比目标字母大的最小字母.md" />
+        <option value="$PROJECT_DIR$/leetcode/300-399题/0387. 字符串中的第一个唯一字符.md" />
+        <option value="$PROJECT_DIR$/程序员宝典/10.03. 搜索旋转数组.md" />
+        <option value="$PROJECT_DIR$/leetcode/800-899题/0852. 山脉数组的峰顶索引.md" />
+        <option value="$PROJECT_DIR$/leetcode/500-599题/0540. 有序数组中的单一元素.md" />
+        <option value="$PROJECT_DIR$/leetcode/200-299题/0209. 长度最小的子数组.md" />
+        <option value="$PROJECT_DIR$/leetcode/300-399题/0378. 有序矩阵中第 K 小的元素.md" />
+        <option value="$PROJECT_DIR$/leetcode/300-399题/0374. 猜数字大小.md" />
+        <option value="$PROJECT_DIR$/leetcode/300-399题/0367. 有效的完全平方数.md" />
+        <option value="$PROJECT_DIR$/leetcode/200-299题/0278. 第一个错误的版本.md" />
+        <option value="$PROJECT_DIR$/leetcode/400-499题/0441. 排列硬币.md" />
+        <option value="$PROJECT_DIR$/leetcode/300-399题/0392. 判断子序列.md" />
+        <option value="$PROJECT_DIR$/程序员宝典/17.04. 消失的数字.md" />
+        <option value="$PROJECT_DIR$/leetcode/200-299题/0268. 丢失的数字.md" />
+        <option value="$PROJECT_DIR$/leetcode/200-299题/0231. 2的幂.md" />
+        <option value="$PROJECT_DIR$/leetcode/300-399题/0342. 4的幂.md" />
+        <option value="$PROJECT_DIR$/leetcode/1-99题/0027. 移除元素.md" />
+        <option value="$PROJECT_DIR$/jianzhioffer67/006_从尾到头打印链表.md" />
       </list>
     </option>
   </component>
@@ -91,44 +120,13 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Algorithm_Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm_Code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm_Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm_Code" type="462c0819:PsiDirectoryNode" />
-              <item name="jianzhioffer67" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm_Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm_Code" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm_Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm_Code" type="462c0819:PsiDirectoryNode" />
-              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
-              <item name="1300-1399题" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Algorithm_Code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Algorithm_Code" type="462c0819:PsiDirectoryNode" />
-              <item name="程序员宝典" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/tecentKe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -163,15 +161,23 @@
       <workItem from="1613796744847" duration="4558000" />
       <workItem from="1613884204719" duration="4125000" />
       <workItem from="1613918416353" duration="1769000" />
+      <workItem from="1613968513437" duration="2666000" />
+      <workItem from="1613998483732" duration="1734000" />
+      <workItem from="1614051740547" duration="2578000" />
+      <workItem from="1614171946414" duration="2090000" />
+      <workItem from="1614241706059" duration="1859000" />
+      <workItem from="1614424301096" duration="2377000" />
+      <workItem from="1614510452037" duration="689000" />
+      <workItem from="1614576178787" duration="1206000" />
+      <workItem from="1614754168832" duration="165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21147000" />
+    <option name="totallyTimeSpent" value="36511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18608329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -196,18 +202,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jianzhioffer67/006_从尾到头打印链表.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-1078">
-            <folding>
-              <element signature="n#!!doc" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/200-299题/0264. 丑数 II.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -302,15 +296,15 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jianzhioffer67/056 - I. 数组中数字出现的次数.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="8" column="23" lean-forward="true" selection-end-line="86" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="8" column="23" lean-forward="true" selection-end-line="86" />
         </state>
       </provider>
     </entry>
@@ -412,17 +406,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/leetcode/100-199题/0136 只出现一次的数字.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="432">
             <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -469,8 +463,201 @@
     <entry file="file://$PROJECT_DIR$/leetcode/1300-1399题/1351. 统计有序矩阵中的负数.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="182">
+          <first_editor relative-caret-position="612">
             <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/程序员宝典/10.05. 稀疏数组搜索.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="722">
+            <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/700-799题/0744. 寻找比目标字母大的最小字母.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="540">
+            <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/程序员宝典/10.03. 搜索旋转数组.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="324">
+            <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/300-399题/0387. 字符串中的第一个唯一字符.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="612">
+            <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/800-899题/0852. 山脉数组的峰顶索引.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="324">
+            <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/500-599题/0540. 有序数组中的单一元素.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="794">
+            <caret line="73" column="2" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/200-299题/0209. 长度最小的子数组.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="648">
+            <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/300-399题/0378. 有序矩阵中第 K 小的元素.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="540">
+            <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/300-399题/0374. 猜数字大小.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1296">
+            <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/300-399题/0367. 有效的完全平方数.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="38">
+            <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/200-299题/0278. 第一个错误的版本.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="684">
+            <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/400-499题/0441. 排列硬币.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="540">
+            <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/200-299题/0268. 丢失的数字.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="794">
+            <caret line="43" selection-start-line="43" selection-end-line="43" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/程序员宝典/17.04. 消失的数字.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="144">
+            <caret line="4" column="15" lean-forward="true" selection-end-line="43" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/300-399题/0392. 判断子序列.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="684">
+            <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/200-299题/0231. 2的幂.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="290">
+            <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/300-399题/0342. 4的幂.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="396">
+            <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetcode/1-99题/0027. 移除元素.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="396">
+            <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jianzhioffer67/006_从尾到头打印链表.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="72">
+            <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+            <folding>
+              <element signature="n#!!doc" expanded="true" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
