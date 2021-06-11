@@ -34,6 +34,8 @@ class Solution:
 
 # JavaScript
 
+- 2021.04.24
+
 ```js
 // 1.迭代. 最常规的思想了
 var mergeTwoLists = function(l1, l2) {
@@ -42,25 +44,25 @@ var mergeTwoLists = function(l1, l2) {
     if (!l2)
         return l1;
     
-    let ans = new ListNode(null);
-    let p = ans;
+    let dummy = new ListNode(-1);
+    let p = dummy;
 
     while (l1 && l2) {
-        if (l1.val < l2.val) {
+        if (l1.val < l2.val) {      // l1.val <= l2.val 也是可以的。
             p.next = l1;
             l1 = l1.next;
         } else {
             p.next = l2;
             l2 = l2.next;
         }
+
         p = p.next;
     }
 
     p.next = l1 ? l1 : l2;
 
-    return ans.next;
+    return dummy.next;
 };
-
 // 2.递归
 var mergeTwoLists = function(l1, l2) {
     if (!l1)
