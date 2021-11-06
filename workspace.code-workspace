@@ -1,13 +1,25 @@
 {
 	"folders": [
 		{
-			"path": "."
-		},
-		{
 			"path": "../myBlog"
 		},
 		{
 			"path": "../cssLearn"
+		},
+		{
+			"path": "../ReactLearn"
+		},
+		{
+			"path": "../VueLearn"
+		},
+		{
+			"path": "../../Desktop/cppCode"
 		}
-	]
+	],
+	"settings": {
+		"files.associations": {
+			"ostream": "cpp",
+			"iostream": "cpp"
+		}
+	}
 }
